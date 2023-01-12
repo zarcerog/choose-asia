@@ -2,29 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 @layer base {
     body {
-        @apply font-[Raleway];
+        @apply font-[Lato];
     }
     li {
         @apply px-4;
         @apply cursor-pointer
     }
+    Link {
+        @apply cursor-pointer;
+        @apply font-thin;
+    }
+    li.active {
+        @apply font-bold;
+    }
+    span, p {
+        @apply font-[Oswald];
+    }
 }
 
-.content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
+.title {
+    font-family: 'Lato', sans-serif;
 }
 
-.content-div:hover {
-    background-image: linear-gradient(
-        to right,
-        rgba(112, 157, 255, 0.8),
-        hsla(242, 74%, 61%, 0.8)   
-    )!important;
+.name {
+    font-family: 'Oswald', sans-serif;
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.par-tours {
+    font-family: 'Lato', sans-serif;
 }
