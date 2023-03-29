@@ -44,31 +44,31 @@ const Navbar = ({nav, setNav}) => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl'>
+        <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/'>Pàgina Principal</CustomLink>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/qui-som'>Qui som</CustomLink>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/la-idea'>La idea</CustomLink>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/que-fem'>Què fem</CustomLink>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/tours'>Tours</CustomLink>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/allotjament'>Allotjament</CustomLink>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/galeria'>Galeria</CustomLink>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/que-cal-saber'>Què cal saber</CustomLink>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/contacte'>Contacte</CustomLink>
         </li>
       </ul>

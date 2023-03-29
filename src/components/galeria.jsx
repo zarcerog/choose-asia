@@ -1,10 +1,17 @@
 import React from 'react';
 import YouTubeEmbed from './YouTubeEmbed';
 
-const Allotjament = () => {
+const Allotjament = ({nav}) => {
     return (
       <div name='galeria' className='w-full h-screen'>
-        <div className='px-5 py-20 flex flex-col md:flex-row justify-center items-center md:items-start gap-5 md:gap-10'>
+        <div 
+            className={
+                nav
+                ? 'hidden'
+                : 'px-5 py-20 flex flex-col md:flex-row justify-center items-center md:items-start gap-5 md:gap-10'
+            }
+        
+        >
             <div>
                 <div className='w-full sm:w-96 lg:w-[512px]'>
                     <YouTubeEmbed embedId='Mi4FLOengzM' />

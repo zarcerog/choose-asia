@@ -23,8 +23,8 @@ function App() {
         <Route path="/que-fem" element={<QueFem />} />
         <Route path="/tours" element={<Tours />} />
         <Route path="/allotjament" element={<Allotjament />} />
-        <Route path="/galeria" element={<Galeria />} />
-        <Route path="/que-cal-saber" element={<QueCalSaber />} />
+        <Route path="/galeria" element={<Galeria nav={nav} />} />
+        <Route path="/que-cal-saber" element={<QueCalSaber nav={nav} />} />
         <Route path="/contacte" element={<Contact />} />
       </Routes>
     </div>

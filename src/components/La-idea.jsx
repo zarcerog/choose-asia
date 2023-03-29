@@ -1,6 +1,5 @@
 import React from 'react';
 import YouTubeEmbed from './YouTubeEmbed';
-import { nav } from './Navbar';
 
 const Skills = ({nav}) => {  
   return (
