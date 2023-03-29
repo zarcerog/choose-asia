@@ -1,19 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
+  FaTimes
 } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.jpg';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
-const Navbar = () => {
-  const [nav, setNav] = useState(false);
+const Navbar = ({nav, setNav}) => {
   const handleClick = () => setNav(!nav);
 
   return (
@@ -26,20 +19,20 @@ const Navbar = () => {
       </div>
 
       {/* menu */}
-      <ul className='hidden md:flex text-base font-light text-[]'>
+      <ul className='hidden xl:flex text-base font-light'>
         <CustomLink to='/'>Pàgina Principal</CustomLink>
         <CustomLink to='/qui-som'>Qui som</CustomLink>
         <CustomLink to='/la-idea'>La idea</CustomLink>
         <CustomLink to='/que-fem'>Què fem</CustomLink>
         <CustomLink to='/tours'>Tours</CustomLink>
-        <CustomLink to='/contact'>Allotjament</CustomLink>
-        <CustomLink to='/contact'>Galeria</CustomLink>
-        <CustomLink to='/'>Què cal saber</CustomLink>
+        <CustomLink to='/allotjament'>Allotjament</CustomLink>
+        <CustomLink to='/galeria'>Galeria</CustomLink>
+        <CustomLink to='/que-cal-saber'>Què cal saber</CustomLink>
         <CustomLink to='/contacte'>Contacte</CustomLink>
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
+      <div onClick={handleClick} className='xl:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -48,23 +41,35 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
-          <a href='/'>Home</a>
+          <CustomLink onClick={handleClick} to='/'>Pàgina Principal</CustomLink>
         </li>
         <li className='py-6 text-4xl'>
-          <a href='/about'>About</a>
+          <CustomLink onClick={handleClick} to='/qui-som'>Qui som</CustomLink>
         </li>
         <li className='py-6 text-4xl'>
-          <a href='/skills'>Skills</a>
+          <CustomLink onClick={handleClick} to='/la-idea'>La idea</CustomLink>
         </li>
         <li className='py-6 text-4xl'>
-          <a href='/work'>Work</a>
+          <CustomLink onClick={handleClick} to='/que-fem'>Què fem</CustomLink>
         </li>
         <li className='py-6 text-4xl'>
-          <a href='/contact'>Contact</a>
+          <CustomLink onClick={handleClick} to='/tours'>Tours</CustomLink>
+        </li>
+        <li className='py-6 text-4xl'>
+          <CustomLink onClick={handleClick} to='/allotjament'>Allotjament</CustomLink>
+        </li>
+        <li className='py-6 text-4xl'>
+          <CustomLink onClick={handleClick} to='/galeria'>Galeria</CustomLink>
+        </li>
+        <li className='py-6 text-4xl'>
+          <CustomLink onClick={handleClick} to='/que-cal-saber'>Què cal saber</CustomLink>
+        </li>
+        <li className='py-6 text-4xl'>
+          <CustomLink onClick={handleClick} to='/contacte'>Contacte</CustomLink>
         </li>
       </ul>
     </div>
@@ -83,5 +88,7 @@ function CustomLink({ to, children, ...props }) {
     </li>
   )
 }
+
+export const nav = false;
 
 export default Navbar;

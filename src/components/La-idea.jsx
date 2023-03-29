@@ -1,13 +1,19 @@
 import React from 'react';
 import YouTubeEmbed from './YouTubeEmbed';
+import { nav } from './Navbar';
 
-const Skills = () => {
+const Skills = ({nav}) => {  
   return (
-    <div className='flex md:flex-row flex-col justify-center items-center pt-32 h-screen w-screen'>
-        <div className='h-full w-full m-10 p-24 xl:m-6 xl:p-6 md:p-10 md:m-10'>
+    <div 
+      className={
+        nav
+          ? 'hidden'
+          : 'flex flex-col lg:flex-row justify-center items-center pt-32 gap-8 mx-8'}
+      >
+        <div className='h-full w-full'>
             <YouTubeEmbed embedId='d0O6Yr3Sc54' />
         </div>
-        <div className='h-full w-full m-10 px-24 xl:m-6 xl:p-6 md:p-10 md:m-10'>
+        <div className='h-full w-full'>
             <YouTubeEmbed embedId='eTOD1yWqMCA' />
         </div>
     </div>

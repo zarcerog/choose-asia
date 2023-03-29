@@ -36,8 +36,8 @@ const Tours = () => {
     
     return (
         <div name='tours' className='w-full h-screen'>
-            <div className='w-full h-[340px] bg-[url(assets/tours.jpg)] bg-no-repeat bg-center bg-cover flex justify-center items-center'>
-                <div className='pt-10 px-48'>
+            <div className='w-full h-[600px] md:h-[340px] bg-[url(assets/tours.jpg)] bg-no-repeat bg-center bg-cover flex justify-center items-center'>
+                <div className='pt-2 md:pt-10 px-12 md:px-48'>
                     <span className='text-[#ff9900] text-4xl'>Tours</span>
                     <p className='text-white text-xl leading-relaxed font-normal pt-5 par-tours'>
                     El nostre tour estrella és, sens dubte, 14 dies 13 nits, però n'hi ha de més curts igual 
@@ -46,7 +46,7 @@ const Tours = () => {
                     </p>
                 </div>
             </div>
-            <div className="flex flex-col pt-10 px-48 gap-10">
+            <div className="flex flex-col pt-2 md:pt-10 px-12 md:px-48 gap-10">
                 {data.tours.map((tour) => {
                     return (
                         <TourCard key={tour.id} tourTitle={tour.tourTitle} tourDescription={tour.tourDescription} coverPhoto={tour.coverPhoto.url} />

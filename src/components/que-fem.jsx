@@ -6,8 +6,8 @@ import imageThree from '../assets/3.jpeg';
 const QueFem = () => {
   return (
     <div name='que-fem' className='w-full h-screen'>
-      <div className='w-full h-[520px] bg-[url(assets/que-fem.jpg)] bg-no-repeat bg-center bg-cover bg-[#CB6928]'></div>
-      <section className='flex px-[160px] py-[1.5rem]'>
+      <div className='w-full h-[346px] md:h-[520px] bg-[url(assets/que-fem.jpg)] bg-no-repeat bg-center bg-cover bg-[#CB6928]'></div>
+      <section className='flex lg:px-[160px] px-7 py-2 lg:py-[1.5rem]'>
           <div className='px-[1.25%]'>
             <div className='w-full py-[14px] px-[8px]'>
               <span className='text-[#ff9900] text-3xl'>Què fem</span>
@@ -32,7 +32,7 @@ const QueFem = () => {
               en contacte amb nosaltres.
               </p>
             </div>
-            <div className='flex flex-row w-full h-[244px] justify-between'>
+            <div className='flex flex-col xl:flex-row gap-4 xl:h-[244px] justify-between'>
               <img src={imageOne} alt="Image One" />
               <img src={imageTwo} alt="Image Two" />
               <img src={imageThree} alt="Image Three" />
