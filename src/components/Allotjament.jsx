@@ -1,15 +1,17 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Allotjament = () => {
+
+    const { t } = useTranslation();
+
     return (
       <div name='allotjament' className='w-full h-screen'>
         <div className='w-full h-[440px] md:h-[340px] bg-[url(assets/allotjament.jpg)] bg-no-repeat bg-center bg-cover flex justify-center items-center'>
         <div className='pt-2 md:pt-10 px-12 md:px-48'>
-                    <span className='text-[#ff9900] text-4xl'>Allotjament</span>
+                    <span className='text-[#ff9900] text-4xl'>{t('allotjament.allotjament')}</span>
                     <p className='text-white text-xl leading-relaxed font-normal pt-5'>
-                    A excepció de Siem Reap i Phnom Penh, on la selecció d'allotjament és infinita i molt variada, 
-                    durant la resta dels itineraris que contemplen altres localitats, hem triat curosament la millor 
-                    opció existent de la zona.
+                        {t('allotjament.paragraph')}
                     </p>
                 </div>
         </div>

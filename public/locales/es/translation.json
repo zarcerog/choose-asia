@@ -1,0 +1,50 @@
+{
+    "navbar": {
+        "pagPrincipal": "Página Principal",
+        "quiSom": "Quienes somos",
+        "laIdea": "La idea",
+        "queFem": "Qué hacemos",
+        "tours": "Tours",
+        "allotjament": "Alojamiento",
+        "galeria": "Galería",
+        "queCalSaber": "Qué debo saber",
+        "contacte": "Contacto"
+    },
+    "quiSom": {
+        "quiSom": "Quienes somos",
+        "text": "Una catalana afincada en el país desde 2009 y un guía local profesional que habla, entre otras lenguas, un perfecto español. La mezcla perfecta para meternos de lleno en la Camboya profunda, gozando del exotismo del sureste asiático, sin lujos. Bienvenidos al país de las sonrisas de la mano de los artífices de un itinerario único.",
+        "chok": "Chok es guía oficial desde 2005, y posee licencia para actuar en todas las zonas del país. Su inquietud por aprender de otras culturas y su innata facilidad para los idiomas, sin olvidar su característica gracia natural, lo han convertido en un experimentado profesional de gran personalidad.",
+        "gloria": "Glòria tiene una relación muy especial con Camboya desde 2007. Al llegar lo tuvo claro: continuar su labor como formadora de idiomas para los guías locales de Angkor. Años más tarde se introdujo en el mundo del Turismo comenzando a trabajar para importantes tour operadores asiáticos, lo que le dio una visión técnica y profesional que, añadida a su conocimiento del terreno y el gran afecto por su gente, la convierte en una perfecta acompañante y coordinadora."
+    },
+    "queFem": {
+        "queFem": "Qué hacemos",
+        "first": "Ofrecer una experiencia única. La innovación del proyecto recae en la identidad de un viaje de autor hecho a medida, basado en el conocimiento del territorio partiendo de cero, siendo en todo momento partícipes de la cultura khmer. Camboya como único destino es un verdadero descubrimiento que mantiene – a pesar de las influencias de las vecinas Tailandia y Vietnam – intactas sus tradiciones.",
+        "second": "Entre nuestros variados tours, el itinerario estrella que hemos diseñado es de 14 días (13 noches) y empieza con la llegada a la capital de Camboya, Phnom Penh. El recorrido sube hacia el noroeste para continuar más hacia el norte, hasta tocar la frontera tailandesa. Desde allí nos desplazamos hacia el este atravesando todo el país hasta las provincias fronterizas con Vietnam, siguiendo hacia el centro, siempre sin volver a pisar nuestros pasos. Finalizamos en la ciudad de Siem Reap para maravillarnos con la antigua civilización de Angkor.",
+        "third": "Todo ello aliñado con actividades que apoyan a la economía local, experiencias totalmente diseñadas para gozar de una Camboya auténtica, segura y cercana. Para más detalles estamos siempre disponibles en nuestros contactos habituales."
+    },
+    "tours": {
+        "tours": "Tours",
+        "paragraph": "Nuestro tour estrella es, sin duda, 14 días 13 noches, pero existen muchos otros más cortos e igual de intensos. Si no encuentras el que se adapta a tus días, nosotros nos adaptamos a ti. Echa un vistazo a las opciones que presentamos."
+    },
+    "allotjament": {
+        "allotjament": "Alojamiento",
+        "paragraph": "A excepción de Siem Reap y Phnom Penh, donde la selección de alojamiento es infinita y muy variada, durante el resto de los itinerarios que contemplan otras localidades, hemos escogido cuidadosamente la mejor opción existente en la zona."
+    },
+    "queCalSaber": {
+        "queCalSaber": "Qué debo saber",
+        "firstQuestion": "¿Es un país seguro?",
+        "firstAnswer": "Es muy seguro, con unos índices mínimos de criminalidad; obviamente, como en todas partes, tened cuidado de vuestras pertenencias para evitar pequeños robatorios, pero no hay motivo de preocupación.",
+        "secondQuestion": "¿Todavía quedan minas anti-persona?",
+        "secondAnswer": "Camboya lleva muchos años desminando el país. Actualmente se hace con ratas que han estado entrenadas en África. Todo nuestro recorrido se encuentra fuera de peligro y, de hecho, son zonas que atravesamos siempre con guías locales y conocedores del terreno.",
+        "thirdQuestion": "¿Qué tiempo hace?",
+        "thirdAnswer": "Nos encontramos en un país de monzones con dos estaciones principales, la lluviosa y la seca. Tendremos lluvias que van en aumento desde junio hasta finales de octubre, para entonces disfrutar del mejor clima durante el año, con temperaturas agradables hasta el mes de marzo, cuando el calor es más intenso a la espera de que empiece a llover a finales de mayo.",
+        "fourthQuestion": "¿Qué vacunas son obligatorias y cuáles recomendadas?",
+        "fourthAnswer": "Hasta antes de la pandemia no existía ninguna vacuna obligatoria, pero sí recomendadas. Sus centros de salud le informarán. Actualmente es necesario el certificado de vacunación de la Covid.",
+        "fifthQuestion": "¿Qué moneda se acepta?",
+        "fifthAnswer": "Camboya tiene su propia moneda, el riel khmer, pero también el dólar americano es moneda co-oficial. Un dólar equivale aproximadamente a unos 4000 rieles, dependiendo de dónde los canjeamos.",
+        "sixthQuestion": "Medidas Covid-19",
+        "sixthAnswer": "Actualmente es necesario el certificado de vacunación de la Covid. En ese momento no existen otros requerimientos ni pruebas PCR.",
+        "seventhQuestion": "Visados",
+        "seventhAnswer": "El visado de turista a la llegada, para personas vacunadas de la Covid, vuelve a estar vigente. Le pedirán una fotografía y el abono de 30$ en efectivo, mejor si ya lleva dólares americanos. Es muy importante que el pasaporte tenga validez al menos 6 meses y que contenga dos pâgines en blanco. Este visado tiene una duración de 30 días. Sin embargo, si se quiere ahorrar tiempo de espera, se puede pedir on-line con antelación en la web: https://www.evisa.gov.kh/"
+    }
+}

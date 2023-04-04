@@ -19,7 +19,7 @@ const Contacte = () => {
               <a href="mailto:chok@chooseasia.info" className="underline text-gray-500 title">chok@chooseasia.info</a>
             </div>
             <div className="text-gray-500">
-              (whatsapp i telegram +855 12 212 353)
+              (whatsapp / telegram +855 12 212 353)
             </div>
           </div>
         </section>

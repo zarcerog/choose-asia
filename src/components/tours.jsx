@@ -1,6 +1,7 @@
 import React from "react";
 import TourCard from "./TourCard.js";
 import { useQuery, gql } from "@apollo/client";
+import { useTranslation } from "react-i18next";
 
 const QUERY = gql`
     {
@@ -16,6 +17,9 @@ const QUERY = gql`
 `;
 
 const Tours = () => {
+
+    const { t } = useTranslation();
+
     const {error, data, loading} = useQuery(QUERY);
 
     if (loading) {
@@ -38,11 +42,9 @@ const Tours = () => {
         <div name='tours' className='w-full h-screen'>
             <div className='w-full h-[600px] md:h-[340px] bg-[url(assets/tours.jpg)] bg-no-repeat bg-center bg-cover flex justify-center items-center'>
                 <div className='pt-2 md:pt-10 px-12 md:px-48'>
-                    <span className='text-[#ff9900] text-4xl'>Tours</span>
+                    <span className='text-[#ff9900] text-4xl'>{t('tours.tours')}</span>
                     <p className='text-white text-xl leading-relaxed font-normal pt-5 par-tours'>
-                    El nostre tour estrella és, sens dubte, 14 dies 13 nits, però n'hi ha de més curts igual 
-                    d'intensos. Si no trobes el que s'adapti als teus dies, nosaltres ens adaptem a tu. Fes un 
-                    cop d'ull a les opcions que et presentem.
+                        {t('tours.paragraph')}
                     </p>
                 </div>
             </div>

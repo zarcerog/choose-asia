@@ -1,0 +1,50 @@
+{
+    "navbar": {
+        "pagPrincipal": "Pàgina Principal",
+        "quiSom": "Qui som",
+        "laIdea": "La idea",
+        "queFem": "Què fem",
+        "tours": "Tours",
+        "allotjament": "Allotjament",
+        "galeria": "Galeria",
+        "queCalSaber": "Què cal saber",
+        "contacte": "Contacte"
+    },
+    "quiSom": {
+        "quiSom": "Qui som",
+        "text": "Una catalana afincada al país des de 2009 i un guia local professional que parla, entre d'altres llengües, el català. La mescla perfecta per a endinsar-nos en la Cambodja profunda gaudint de l'exotisme del sudest asiàtic, sense luxes. Benvinguts al país dels somriures de la mà dels artífexs d'un itinerari únic.",
+        "chok": "En Chock és guia oficial des de 2005, i posseeix llicència per a actuar en totes les zones del país. La seva inquietut per aprendre d'altres cultures i la seva facilitat per als idiomes, sense oblidar la seva gràcia natural característica, l'ha convertit en un experimentat professional de gran personalitat.",
+        "gloria": "La Glòria té una relació molt especial amb Cambodja des de 2007. En arribar-hi ho va tenir clar: continuar la seva tasca com a formadora d'idiomes per als guies locals d'Angkor. Anys més tard es va introduir al món del Turisme començant a treballar per a importants tour operadors asiàtics, cosa que li donà una visió tècnica i professional que, afegida al seu coneixement del terreny i el gran afecte per la seva gent, la converteix en una perfecta acompanyant i coordinadora."
+    },
+    "queFem": {
+        "queFem": "Què fem",
+        "first": "Oferir-vos una experiència única. La innovació del projecte recau en la identitat d'un viatge d'autor fet a mida, basat en el coneixement del territori partint de zero, essent en tot moment partíceps de la cultura khmer. Cambodja com a únic destí és tot un descobriment, que manté -tot i les influències de les veïnes Tailàndia i Vietnam- les seves tradicions intactes.",
+        "second": "L'itinerari estrella que hem dissenyat és de 14 dies (13 nits) i comença amb l'arribada a la capital de Cambodja, Phnom Penh. El recorregut puja cap al nordoest per a continuar més cap al nord, fins a tocar amb la frontera tailandesa. D'allí ens desplacem cap a l'est travessant tot el país fins a les províncies frontereres amb Vietnam, i seguim -sempre sense trepitjar les nostres passes- cap al centre. Finalitzem a la ciutat de Siem Reap, per a meravellar-nos amb l'antiga civilització d'Angkor.",
+        "third": "Tot això amanit amb activitats que dónen suport a l'economia local, experiències totalment dissenyades per a gaudir d'una Cambodja autèntica, segura i propera. Si en voleu més detalls, no dubteu a posar-vos en contacte amb nosaltres."
+    },
+    "tours": {
+        "tours": "Tours",
+        "paragraph": "El nostre tour estrella és, sens dubte, 14 dies 13 nits, però n'hi ha de més curts igual d'intensos. Si no trobes el que s'adapti als teus dies, nosaltres ens adaptem a tu. Fes un cop d'ull a les opcions que et presentem."
+    },
+    "allotjament": {
+        "allotjament": "Allotjament",
+        "paragraph": "A excepció de Siem Reap i Phnom Penh, on la selecció d'allotjament és infinita i molt variada, durant la resta dels itineraris que contemplen altres localitats, hem triat curosament la millor opció existent de la zona."
+    },
+    "queCalSaber": {
+        "queCalSaber": "Què cal saber",
+        "firstQuestion": "És un país segur?",
+        "firstAnswer": "És molt segur, amb uns índex mínims de criminalitat; òbviament, com a tot arreu, tingueu cura de les vostres pertenences per evitar petits furts, però no hi ha motiu de preocupació.",
+        "secondQuestion": "Encara hi queden mines anti-persona?",
+        "secondAnswer": "Cambodia fa molts anys que està desminant el país. Recentment es fa amb rates que han estat entrenades a l'Africa. Tot el nostre recorregut es troba lliure de perill i, de fet, són zones que travessem sempre amb guies locals i coneixedors del terreny.",
+        "thirdQuestion": "Quin temps hi fa?",
+        "thirdAnswer": "Ens trobem en un país de monzons amb dues estacions principals, la plujosa i la seca. Tindrem pluges que van en augment des de juny fins a finals d'octubre, per aleshores gaudir del millor clima durant l'any, amb temperatures agradables fins al mes de març, quan la calor és més intensa a l'espera que comenci a ploure a finals de maig.",
+        "fourthQuestion": "Quines vacunes són obligatories i quines recomanades?",
+        "fourthAnswer": "Fins abans de la pandèmia no hi havia cap vacuna obligatòria, però sí recomanades. Els vostres centres de salut us n'informaran. Actualment és necessari el certificat de vacunació de la Covid.",
+        "fifthQuestion": "Quina moneda s'accepta?",
+        "fifthAnswer": "Cambodja té la seva prôpia moneda, el riel khmer, però també el dòlar americà és moneda co-oficial. Un dòlar equival aproximadament a uns 4000 riels, depenent d'on els bescanviem.",
+        "sixthQuestion": "Mesures Covid-19",
+        "sixthAnswer": "Actualment és necessari el certificat de vacunació de la Covid. En aquest moment no existeixen altres requeriments ni proves PCR.",
+        "seventhQuestion": "Visats",
+        "seventhAnswer": "El visat de turista a l'arribada, per a persones vacunades de la Covid, torna a ser vigent. Us demanaran una fotografia i l'abonament de 30 $ en efectiu, millor si ja porteu dölars americans. És molt important que el passaport tingui validesa almenvs 6 mesos i que contingui dues pâgines en blanc. Aquest visat té una durada de 30 dies. De tota manera, si es vol estalviar temps d'espera, es pot demanar on-line amb antel·lació a la web: https://www.evisa.gov.kh/"
+    }
+}
