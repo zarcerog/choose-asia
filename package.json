@@ -1,6 +1,7 @@
 {
   "name": "choose-asia",
   "version": "0.1.0",
+  "homepage": "https://chooseasia.info",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.7.3",
