@@ -10,11 +10,21 @@ import QueCalSaber from "./components/que-cal-saber";
 import Galeria from "./components/galeria";
 import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
+import { Helmet } from "react-helmet";
+import { useTranslation } from 'react-i18next';
 
 function App() {
   const [nav, setNav] = useState(false);
+
+  const { t } = useTranslation();
+
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{t('slogan')}</title>
+        <meta name="description" content={t('slogan')} />
+      </Helmet>
       <Navbar nav={nav} setNav={setNav} />
       <Routes>
         <Route path="/" element={<PaginaPrincipal />} />

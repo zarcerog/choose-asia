@@ -1,7 +1,10 @@
 import React from 'react';
 import YouTubeEmbed from './YouTubeEmbed';
+import { useTranslation } from 'react-i18next';
 
 const Allotjament = ({nav}) => {
+    const { t } = useTranslation();
+    
     return (
       <div name='galeria' className='w-full h-screen'>
         <div 
@@ -19,9 +22,7 @@ const Allotjament = ({nav}) => {
                 <div className='w-full sm:w-96 lg:w-[512px]'>
                     <p className='pt-2 font-light text-xl text-[#434343] leading-relaxed'>Españoles en el Mundo - Glòria Gay</p>
                     <p className='pt-3 font-light text-md text-[#434343] leading-relaxed'>
-                        El popular programa de TVE1 que entrevistava espanyols que vivien a l'estranger, va
-                        ser una visita molt entretinguda i divertida; mostra la tasca de formadora de la Glòria
-                        durant els primers anys a Cambodja, quan ensenyava castellà als guies oficials locals.
+                        {t('galeria')}
                     </p>
                 </div>
             </div>

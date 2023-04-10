@@ -1,4 +1,5 @@
 {
+    "slogan": "Viatge d'autor",
     "navbar": {
         "pagPrincipal": "Pàgina Principal",
         "quiSom": "Qui som",
@@ -14,7 +15,8 @@
         "quiSom": "Qui som",
         "text": "Una catalana afincada al país des de 2009 i un guia local professional que parla, entre d'altres llengües, el català. La mescla perfecta per a endinsar-nos en la Cambodja profunda gaudint de l'exotisme del sudest asiàtic, sense luxes. Benvinguts al país dels somriures de la mà dels artífexs d'un itinerari únic.",
         "chok": "En Chock és guia oficial des de 2005, i posseeix llicència per a actuar en totes les zones del país. La seva inquietut per aprendre d'altres cultures i la seva facilitat per als idiomes, sense oblidar la seva gràcia natural característica, l'ha convertit en un experimentat professional de gran personalitat.",
-        "gloria": "La Glòria té una relació molt especial amb Cambodja des de 2007. En arribar-hi ho va tenir clar: continuar la seva tasca com a formadora d'idiomes per als guies locals d'Angkor. Anys més tard es va introduir al món del Turisme començant a treballar per a importants tour operadors asiàtics, cosa que li donà una visió tècnica i professional que, afegida al seu coneixement del terreny i el gran afecte per la seva gent, la converteix en una perfecta acompanyant i coordinadora."
+        "gloria": "La Glòria té una relació molt especial amb Cambodja des de 2007. En arribar-hi ho va tenir clar: continuar la seva tasca com a formadora d'idiomes per als guies locals d'Angkor. Anys més tard es va introduir al món del Turisme començant a treballar per a importants tour operadors asiàtics, cosa que li donà una visió tècnica i professional que, afegida al seu coneixement del terreny i el gran afecte per la seva gent, la converteix en una perfecta acompanyant i coordinadora.",
+        "nomGloria": "Glòria"
     },
     "queFem": {
         "queFem": "Què fem",
@@ -46,5 +48,6 @@
         "sixthAnswer": "Actualment és necessari el certificat de vacunació de la Covid. En aquest moment no existeixen altres requeriments ni proves PCR.",
         "seventhQuestion": "Visats",
         "seventhAnswer": "El visat de turista a l'arribada, per a persones vacunades de la Covid, torna a ser vigent. Us demanaran una fotografia i l'abonament de 30 $ en efectiu, millor si ja porteu dölars americans. És molt important que el passaport tingui validesa almenvs 6 mesos i que contingui dues pâgines en blanc. Aquest visat té una durada de 30 dies. De tota manera, si es vol estalviar temps d'espera, es pot demanar on-line amb antel·lació a la web: https://www.evisa.gov.kh/"
-    }
+    },
+    "galeria": "El popular programa de TVE1 que entrevistava espanyols que vivien a l'estranger, va ser una visita molt entretinguda i divertida; mostra la tasca de formadora de la Glòria durant els primers anys a Cambodja, quan ensenyava castellà als guies oficials locals."
 }

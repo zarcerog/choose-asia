@@ -39,7 +39,7 @@ const QuiSom = () => {
                 <div className='lg:h-72 max-w-sm'>
                   <img src={Gloria} alt='Gloria' />
                 </div>
-                <span className='name font-extralight text-lg text-[#ff9900]'>Glória</span>
+                <span className='name font-extralight text-lg text-[#ff9900]'>{t('quiSom.nomGloria')}</span>
                 <p className='name font-light text-sm'>
                   {t('quiSom.gloria')}
                 </p>

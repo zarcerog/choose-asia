@@ -1,7 +1,8 @@
 {
+    "slogan": "Viaje de autor",
     "navbar": {
         "pagPrincipal": "Página Principal",
-        "quiSom": "Quienes somos",
+        "quiSom": "Quiénes somos",
         "laIdea": "La idea",
         "queFem": "Qué hacemos",
         "tours": "Tours",
@@ -11,10 +12,11 @@
         "contacte": "Contacto"
     },
     "quiSom": {
-        "quiSom": "Quienes somos",
+        "quiSom": "Quiénes somos",
         "text": "Una catalana afincada en el país desde 2009 y un guía local profesional que habla, entre otras lenguas, un perfecto español. La mezcla perfecta para meternos de lleno en la Camboya profunda, gozando del exotismo del sureste asiático, sin lujos. Bienvenidos al país de las sonrisas de la mano de los artífices de un itinerario único.",
         "chok": "Chok es guía oficial desde 2005, y posee licencia para actuar en todas las zonas del país. Su inquietud por aprender de otras culturas y su innata facilidad para los idiomas, sin olvidar su característica gracia natural, lo han convertido en un experimentado profesional de gran personalidad.",
-        "gloria": "Glòria tiene una relación muy especial con Camboya desde 2007. Al llegar lo tuvo claro: continuar su labor como formadora de idiomas para los guías locales de Angkor. Años más tarde se introdujo en el mundo del Turismo comenzando a trabajar para importantes tour operadores asiáticos, lo que le dio una visión técnica y profesional que, añadida a su conocimiento del terreno y el gran afecto por su gente, la convierte en una perfecta acompañante y coordinadora."
+        "gloria": "Gloria tiene una relación muy especial con Camboya desde 2007. Al llegar lo tuvo claro: continuar su labor como formadora de idiomas para los guías locales de Angkor. Años más tarde se introdujo en el mundo del Turismo comenzando a trabajar para importantes tour operadores asiáticos, lo que le dio una visión técnica y profesional que, añadida a su conocimiento del terreno y el gran afecto por su gente, la convierte en una perfecta acompañante y coordinadora.",
+        "nomGloria": "Gloria"
     },
     "queFem": {
         "queFem": "Qué hacemos",
@@ -33,18 +35,19 @@
     "queCalSaber": {
         "queCalSaber": "Qué debo saber",
         "firstQuestion": "¿Es un país seguro?",
-        "firstAnswer": "Es muy seguro, con unos índices mínimos de criminalidad; obviamente, como en todas partes, tened cuidado de vuestras pertenencias para evitar pequeños robatorios, pero no hay motivo de preocupación.",
+        "firstAnswer": "Es muy seguro, con unos índices mínimos de criminalidad; obviamente, como en todas partes, tened cuidado de vuestras pertenencias para evitar pequeños robos, pero no hay motivo de preocupación.",
         "secondQuestion": "¿Todavía quedan minas anti-persona?",
         "secondAnswer": "Camboya lleva muchos años desminando el país. Actualmente se hace con ratas que han estado entrenadas en África. Todo nuestro recorrido se encuentra fuera de peligro y, de hecho, son zonas que atravesamos siempre con guías locales y conocedores del terreno.",
         "thirdQuestion": "¿Qué tiempo hace?",
         "thirdAnswer": "Nos encontramos en un país de monzones con dos estaciones principales, la lluviosa y la seca. Tendremos lluvias que van en aumento desde junio hasta finales de octubre, para entonces disfrutar del mejor clima durante el año, con temperaturas agradables hasta el mes de marzo, cuando el calor es más intenso a la espera de que empiece a llover a finales de mayo.",
         "fourthQuestion": "¿Qué vacunas son obligatorias y cuáles recomendadas?",
-        "fourthAnswer": "Hasta antes de la pandemia no existía ninguna vacuna obligatoria, pero sí recomendadas. Sus centros de salud le informarán. Actualmente es necesario el certificado de vacunación de la Covid.",
+        "fourthAnswer": "Hasta antes de la pandemia no existía ninguna vacuna obligatoria, pero sí recomendadas. Sus centros de salud le informarán. Actualmente es necesario el certificado de vacunación del Covid.",
         "fifthQuestion": "¿Qué moneda se acepta?",
         "fifthAnswer": "Camboya tiene su propia moneda, el riel khmer, pero también el dólar americano es moneda co-oficial. Un dólar equivale aproximadamente a unos 4000 rieles, dependiendo de dónde los canjeamos.",
         "sixthQuestion": "Medidas Covid-19",
-        "sixthAnswer": "Actualmente es necesario el certificado de vacunación de la Covid. En ese momento no existen otros requerimientos ni pruebas PCR.",
+        "sixthAnswer": "Actualmente es necesario el certificado de vacunación del Covid. En ese momento no existen otros requerimientos ni pruebas PCR.",
         "seventhQuestion": "Visados",
-        "seventhAnswer": "El visado de turista a la llegada, para personas vacunadas de la Covid, vuelve a estar vigente. Le pedirán una fotografía y el abono de 30$ en efectivo, mejor si ya lleva dólares americanos. Es muy importante que el pasaporte tenga validez al menos 6 meses y que contenga dos pâgines en blanco. Este visado tiene una duración de 30 días. Sin embargo, si se quiere ahorrar tiempo de espera, se puede pedir on-line con antelación en la web: https://www.evisa.gov.kh/"
-    }
+        "seventhAnswer": "El visado de turista a la llegada, para personas vacunadas del Covid, vuelve a estar vigente. Le pedirán una fotografía y el abono de 30$ en efectivo, mejor si ya lleva dólares americanos. Es muy importante que el pasaporte tenga validez al menos 6 meses y que contenga dos páginas en blanco. Este visado tiene una duración de 30 días. Sin embargo, si se quiere ahorrar tiempo de espera, se puede pedir on-line con antelación en la web: https://www.evisa.gov.kh/"
+    },
+    "galeria": "El popular programa de TVE1 que entrevistaba españoles que vivían en el extranjero, fue una entretenida y divertida visita. Muestra la vertiente educadora de Gloria durante los primeros años en Camboya, cuando enseñaba español a los guías oficiales locales."
 }
