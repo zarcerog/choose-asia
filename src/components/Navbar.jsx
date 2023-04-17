@@ -32,6 +32,7 @@ const NavbarCatalan = ({nav, setNav}) => {
         <CustomLink to='/allotjament'>{t('navbar.allotjament')}</CustomLink>
         <CustomLink to='/galeria'>{t('navbar.galeria')}</CustomLink>
         <CustomLink to='/que-cal-saber'>{t('navbar.queCalSaber')}</CustomLink>
+        <CustomLink to='/blog'>Blog</CustomLink>
         <CustomLink to='/contacte'>{t('navbar.contacte')}</CustomLink>
         <li>
           <select
@@ -82,6 +83,9 @@ const NavbarCatalan = ({nav, setNav}) => {
           <CustomLink onClick={handleClick} to='/que-cal-saber'>{t('navbar.queCalSaber')}</CustomLink>
         </li>
         <li className='text-4xl py-3'>
+          <CustomLink onCLick={handleClick} to='/blog'>Blog</CustomLink>
+        </li>
+        <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/contacte'>{t('navbar.contacte')}</CustomLink>
         </li>
         <li className='text-4xl py-3'>
@@ -122,6 +126,7 @@ const NavbarSpanish = ({nav, setNav}) => {
         <CustomLink to='/allotjament'>{t('navbar.allotjament')}</CustomLink>
         <CustomLink to='/galeria'>{t('navbar.galeria')}</CustomLink>
         <CustomLink to='/que-cal-saber'>{t('navbar.queCalSaber')}</CustomLink>
+        <CustomLink to='/blog'>Blog</CustomLink>
         <CustomLink to='/contacte'>{t('navbar.contacte')}</CustomLink>
         <li>
           <select
@@ -169,6 +174,9 @@ const NavbarSpanish = ({nav, setNav}) => {
         </li>
         <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/que-cal-saber'>{t('navbar.queCalSaber')}</CustomLink>
+        </li>
+        <li className='text-4xl py-3'>
+          <CustomLink onCLick={handleClick} to='/blog'>Blog</CustomLink>
         </li>
         <li className='text-4xl py-3'>
           <CustomLink onClick={handleClick} to='/contacte'>{t('navbar.contacte')}</CustomLink>

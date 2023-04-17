@@ -8,10 +8,12 @@ import Tours from "./components/tours";
 import Allotjament from "./components/Allotjament";
 import QueCalSaber from "./components/que-cal-saber";
 import Galeria from "./components/galeria";
+import Blog from "./components/Blog";
 import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import { Helmet } from "react-helmet";
 import { useTranslation } from 'react-i18next';
+import Post from "./components/Post";
 
 function App() {
   const [nav, setNav] = useState(false);
@@ -26,17 +28,19 @@ function App() {
         <meta name="description" content={t('slogan')} />
       </Helmet>
       <Navbar nav={nav} setNav={setNav} />
-      <Routes>
-        <Route path="/" element={<PaginaPrincipal />} />
-        <Route path="/qui-som" element={<QuiSom />} />
-        <Route path="/la-idea" element={<LaIdea nav={nav}/>} />
-        <Route path="/que-fem" element={<QueFem />} />
-        <Route path="/tours" element={<Tours />} />
-        <Route path="/allotjament" element={<Allotjament />} />
-        <Route path="/galeria" element={<Galeria nav={nav} />} />
-        <Route path="/que-cal-saber" element={<QueCalSaber nav={nav} />} />
-        <Route path="/contacte" element={<Contact />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<PaginaPrincipal />} />
+          <Route path="/qui-som" element={<QuiSom />} />
+          <Route path="/la-idea" element={<LaIdea nav={nav}/>} />
+          <Route path="/que-fem" element={<QueFem />} />
+          <Route path="/tours" element={<Tours />} />
+          <Route path="/allotjament" element={<Allotjament />} />
+          <Route path="/galeria" element={<Galeria nav={nav} />} />
+          <Route path="/que-cal-saber" element={<QueCalSaber nav={nav} />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<Post />} />
+          <Route path="/contacte" element={<Contact />} />
+        </Routes>
     </div>
   );
 }
