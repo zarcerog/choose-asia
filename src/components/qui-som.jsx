@@ -31,7 +31,7 @@ const QuiSom = () => {
                   <img src={OunChock} alt='Oun Chok' />
                 </div>
                 <span className='name font-extralight text-lg text-[#ff9900]'>Oun Chok</span>
-                <p className='name font-light text-sm'>
+                <p className='name font-light text-sm parr'>
                   {t('quiSom.chok')}
                 </p>
               </div>
@@ -40,7 +40,7 @@ const QuiSom = () => {
                   <img src={Gloria} alt='Gloria' />
                 </div>
                 <span className='name font-extralight text-lg text-[#ff9900]'>{t('quiSom.nomGloria')}</span>
-                <p className='name font-light text-sm'>
+                <p className='name font-light text-sm parr'>
                   {t('quiSom.gloria')}
                 </p>
               </div>

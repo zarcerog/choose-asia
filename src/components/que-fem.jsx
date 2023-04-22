@@ -17,20 +17,20 @@ const QueFem = () => {
               <span className='text-[#ff9900] text-3xl'>{t('queFem.queFem')}</span>
             </div>
             <div className='py-[14px] px-[8px]'>
-              <p className='font-light text-lg text-[#434343] leading-relaxed pb-4'>
+              <p className='font-light text-lg text-[#434343] leading-relaxed pb-4 parr'>
                 {t('queFem.first')}
               </p>
-              <p className='font-light text-lg text-[#434343] leading-relaxed pb-4'>
+              <p className='font-light text-lg text-[#434343] leading-relaxed pb-4 parr'>
                 {t('queFem.second')}
               </p>
-              <p className='font-light text-lg text-[#434343] leading-relaxed pb-4'>
+              <p className='font-light text-lg text-[#434343] leading-relaxed pb-4 parr'>
                 {t('queFem.third')}
               </p>
             </div>
             <div className='flex flex-col xl:flex-row gap-4 xl:h-[244px] justify-between'>
-              <img src={imageOne} alt="Image One" />
-              <img src={imageTwo} alt="Image Two" />
-              <img src={imageThree} alt="Image Three" />
+              <img src={imageOne} alt="One" />
+              <img src={imageTwo} alt="Two" />
+              <img src={imageThree} alt="Three" />
             </div>
           </div>
         </section>

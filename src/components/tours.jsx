@@ -11,6 +11,9 @@ const QUERYcat = gql`
             tourDescription,
             coverPhoto {
                 url
+            },
+            programcat {
+                url
             }
         }
     }
@@ -23,6 +26,9 @@ const QUERYesp = gql`
             tourTitle,
             tourDescription
             coverPhoto {
+                url
+            },
+            programesp {
                 url
             }
         }
@@ -75,7 +81,13 @@ const Tours = () => {
             <div className="flex flex-col pt-2 md:pt-10 px-12 md:px-48 gap-10">
                 {data.tours.map((tour) => {
                     return (
-                        <TourCard key={tour.id} tourTitle={tour.tourTitle} tourDescription={tour.tourDescription} coverPhoto={tour.coverPhoto.url} />
+                        <TourCard 
+                            key={tour.id} 
+                            tourTitle={tour.tourTitle} 
+                            tourDescription={tour.tourDescription} 
+                            coverPhoto={tour.coverPhoto.url} 
+                            program={tour.programcat ? tour.programcat.url : tour.programesp ? tour.programesp.url : null}
+                        />
                     )
                 })};
             </div>

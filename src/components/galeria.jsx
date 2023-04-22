@@ -20,8 +20,8 @@ const Allotjament = ({nav}) => {
                     <YouTubeEmbed embedId='Mi4FLOengzM' />
                 </div>
                 <div className='w-full sm:w-96 lg:w-[512px]'>
-                    <p className='pt-2 font-light text-xl text-[#434343] leading-relaxed'>Españoles en el Mundo - Glòria Gay</p>
-                    <p className='pt-3 font-light text-md text-[#434343] leading-relaxed'>
+                    <p className='pt-2 font-light text-xl text-[#434343] leading-relaxed parr'>Españoles en el Mundo - Glòria Gay</p>
+                    <p className='pt-3 font-light text-md text-[#434343] leading-relaxed parr'>
                         {t('galeria')}
                     </p>
                 </div>
