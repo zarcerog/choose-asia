@@ -20,7 +20,7 @@
     li.active {
         @apply font-bold;
     }
-    span, p {
+    span, .parr {
         @apply font-[Oswald];
     }
 }
