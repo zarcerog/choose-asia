@@ -17,7 +17,7 @@ const NavbarCatalan = ({nav, setNav}) => {
     <div className='fixed w-full h-[56px] flex justify-between items-center px-4 bg-[white] text-black font-lato font-thin text-lg'>
       <div>
         <Link to='/' className='flex items-center gap-4'>
-          <img src={Logo} alt='Logo Image' className='w-16' />
+          <img src={Logo} alt={t('slogan')} className='w-16' />
           <span className='font-light title text-[15pt]'>{t('slogan')}</span>
         </Link>
       </div>
@@ -58,37 +58,37 @@ const NavbarCatalan = ({nav, setNav}) => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center'
         }
       >
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/'>{t('navbar.pagPrincipal')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/qui-som'>{t('navbar.quiSom')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/la-idea'>{t('navbar.laIdea')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/que-fem'>{t('navbar.queFem')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/tours'>{t('navbar.tours')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/allotjament'>{t('navbar.allotjament')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/galeria'>{t('navbar.galeria')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/que-cal-saber'>{t('navbar.queCalSaber')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onCLick={handleClick} to='/blog'>Blog</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/contacte'>{t('navbar.contacte')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <select
             className='bg-transparent border-none outline-none'
             onChange={toggleLang(i18n, isSpanish)}
@@ -112,7 +112,7 @@ const NavbarSpanish = ({nav, setNav}) => {
     <div className='fixed w-full h-[56px] flex justify-between items-center px-4 bg-[white] text-black font-lato font-thin text-lg'>
       <div>
         <Link to='/' className='flex items-center gap-4'>
-          <img src={Logo} alt='Logo Image' className='w-16' />
+          <img src={Logo} alt={t('slogan')} className='w-16' />
           <span className='font-light title text-[15pt]'>{t('slogan')}</span>
         </Link>
       </div>
@@ -154,34 +154,34 @@ const NavbarSpanish = ({nav, setNav}) => {
         }
 
       >
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/'>{t('navbar.pagPrincipal')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/qui-som'>{t('navbar.quiSom')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/que-fem'>{t('navbar.queFem')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/tours'>{t('navbar.tours')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/allotjament'>{t('navbar.allotjament')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/galeria'>{t('navbar.galeria')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/que-cal-saber'>{t('navbar.queCalSaber')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
-          <CustomLink onCLick={handleClick} to='/blog'>Blog</CustomLink>
+        <li className='text-3xl py-3'>
+          <CustomLink onClick={handleClick} to='/blog'>Blog</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <CustomLink onClick={handleClick} to='/contacte'>{t('navbar.contacte')}</CustomLink>
         </li>
-        <li className='text-4xl py-3'>
+        <li className='text-3xl py-3'>
           <select
             className='bg-transparent border-none outline-none'
             onChange={toggleLang(i18n, isSpanish)}
