@@ -1,5 +1,5 @@
 import React from "react";
-import TourCard from "./TourCard.js";
+import TourCard from "../components/TourCard.js";
 import { useQuery, gql } from "@apollo/client";
 import { useTranslation } from "react-i18next";
 

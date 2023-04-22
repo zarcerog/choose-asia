@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useQuery, gql } from "@apollo/client";
-import PostCard from './PostCard.js';
+import PostCard from '../components/PostCard.js';
 
 const QUERYcat = gql`
     {

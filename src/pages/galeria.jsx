@@ -1,5 +1,5 @@
 import React from 'react';
-import YouTubeEmbed from './YouTubeEmbed';
+import YouTubeEmbed from '../components/YouTubeEmbed';
 import { useTranslation } from 'react-i18next';
 
 const Allotjament = ({nav}) => {

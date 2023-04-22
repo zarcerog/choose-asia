@@ -1,19 +1,20 @@
-import QuiSom from "./components/qui-som";
-import Contact from "./components/Contacte"
-import PaginaPrincipal from "./components/Pagina-principal";
-import Navbar from "./components/Navbar";
-import LaIdea from "./components/La-idea";
-import QueFem from "./components/que-fem";
-import Tours from "./components/tours";
-import Allotjament from "./components/Allotjament";
-import QueCalSaber from "./components/que-cal-saber";
-import Galeria from "./components/galeria";
-import Blog from "./components/Blog";
+import QuiSom from "./pages/qui-som";
+import Contact from "./pages/Contacte"
+import PaginaPrincipal from "./pages/Pagina-principal";
+import Navbar from "./pages/Navbar";
+import LaIdea from "./pages/La-idea";
+import QueFem from "./pages/que-fem";
+import Tours from "./pages/tours";
+import Allotjament from "./pages/Allotjament";
+import QueCalSaber from "./pages/que-cal-saber";
+import Galeria from "./pages/galeria";
+import Blog from "./pages/Blog";
 import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import { Helmet } from "react-helmet";
 import { useTranslation } from 'react-i18next';
-import Post from "./components/Post";
+import Post from "./pages/Post";
+import NotFound from "./pages/NotFound";
 
 function App() {
   const [nav, setNav] = useState(false);
@@ -40,6 +41,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<Post />} />
           <Route path="/contacte" element={<Contact />} />
+          <Route Component={NotFound} path="*" />
         </Routes>
     </div>
   );
