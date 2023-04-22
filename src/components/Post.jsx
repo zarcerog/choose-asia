@@ -88,17 +88,20 @@ const Post = () => {
     }
   
     return (
-      <div name="blog" className="w-full h-screen pt-16 px-5 flex flex-col gap-6">
+      <div name="blog" className="w-full h-screen pt-14 flex flex-col gap-6">
         <img className='w-screen h-72 object-cover' src={post.coverPhoto.url} alt={post.postTitle}/>
-        <h1 className="text-[#ff9900] text-4xl">{post.postTitle}</h1>
-        <div
-          className="flex flex-col items-center gap-6"
-          dangerouslySetInnerHTML={{ __html: post.content.html }}
-        ></div>
-        <div>
-          <div className="flex items-center gap-4">
-            <img src={post.autor.avatar.url} alt={post.autor.name} className="w-12 h-12 rounded-full"/>
-            <p className="text-[#ff9900] text-2xl">{post.autor.name}</p>
+        <div className='mx-14 md:mx-32 lg:mx-56 flex flex-col gap-6 pb-16'>
+          <h1 className="text-[#ff9900] text-4xl">{post.postTitle}</h1>
+          <div
+            className="text-lg flex flex-col gap-6 justify-center"
+            dangerouslySetInnerHTML={{ __html: post.content.html }}
+          ></div>
+          <div className='flex flex-col gap-2'>
+            <p className="text-[#ff9900] text-lg">Autor</p>
+            <div className="flex flex-row items-center gap-2">
+              <img src={post.autor.avatar.url} alt={post.autor.name} className="w-8 h-8 rounded-full"/>
+              <p className="text-[#ff9900] text-lg">{post.autor.name}</p>
+            </div>
           </div>
         </div>
       </div>

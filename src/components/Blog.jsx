@@ -43,7 +43,7 @@ const QUERYesp = gql`
 
 const Blog = () => {
 
-    const { t, i18n } = useTranslation();
+    const { i18n } = useTranslation();
 
     const QUERY = i18n.language === 'es' ? QUERYesp : QUERYcat;
 
