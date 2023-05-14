@@ -69,7 +69,7 @@ const Tours = () => {
     }
     
     return (
-        <div name='tours' className='w-full h-screen'>
+        <div name='tours' className='w-full'>
             <div className='w-full h-[600px] md:h-[340px] bg-[url(assets/tours.jpg)] bg-no-repeat bg-center bg-cover flex justify-center items-center'>
                 <div className='pt-2 md:pt-10 px-12 md:px-48'>
                     <span className='text-[#ff9900] text-4xl'>{t('tours.tours')}</span>
@@ -78,7 +78,7 @@ const Tours = () => {
                     </p>
                 </div>
             </div>
-            <div className="flex flex-col pt-2 md:pt-10 px-12 md:px-48 gap-10">
+            <div className='grid gap-4 py-6 xl:grid-cols-1 place-items-center'>
                 {data.tours.map((tour) => {
                     return (
                         <TourCard 
@@ -89,7 +89,7 @@ const Tours = () => {
                             program={tour.programcat ? tour.programcat.url : tour.programesp ? tour.programesp.url : null}
                         />
                     )
-                })};
+                })}
             </div>
         </div>
     );
