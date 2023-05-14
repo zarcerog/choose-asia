@@ -15,6 +15,9 @@ import { Helmet } from "react-helmet";
 import { useTranslation } from 'react-i18next';
 import Post from "./pages/Post";
 import NotFound from "./pages/NotFound";
+import Footer from "./pages/Footer";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfUse from "./pages/TermsOfUse";
 
 function App() {
   const [nav, setNav] = useState(false);
@@ -41,8 +44,11 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<Post />} />
           <Route path="/contacte" element={<Contact />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-use" element={<TermsOfUse />} />
           <Route Component={NotFound} path="*" />
         </Routes>
+      <Footer />
     </div>
   );
 }
