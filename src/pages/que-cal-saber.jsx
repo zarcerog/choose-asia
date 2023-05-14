@@ -7,7 +7,7 @@ const QueCalSaber = ({nav}) => {
     const { t } = useTranslation();
 
     return (
-      <div name='que-cal-saber' className='w-full h-screen'>
+      <div name='que-cal-saber' className='w-full'>
         <div className='w-full h-[340px] bg-[url(assets/que-cal-saber.jpg)] bg-no-repeat bg-center bg-cover bg-[#CB6928]'></div>
         <section className='py-16 mx-auto w-full px-4 max-w-4xl'>
             <div className='w-full py-[14px] px-[8px]'>

@@ -8,7 +8,7 @@ const QuiSom = () => {
   const { t } = useTranslation();
 
   return (
-    <div name='qui-som' className='w-full h-screen'>
+    <div name='qui-som' className='w-full'>
       <div className='w-full h-[346px] md:h-[520px] bg-[url(assets/qui-som.jpg)] bg-no-repeat bg-center bg-cover'></div>
       <div>
         <section className='flex lg:px-[160px] px-7 py-2 lg:py-[1.5rem]'>

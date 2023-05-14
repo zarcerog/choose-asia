@@ -7,7 +7,7 @@ const Skills = ({nav}) => {
       className={
         nav
           ? 'hidden'
-          : 'flex flex-col lg:flex-row justify-center items-center pt-32 gap-8 mx-8'}
+          : 'flex flex-col lg:flex-row h-screen justify-center items-center pt-32 gap-8 mx-8'}
       >
         <div className='h-full w-full'>
             <YouTubeEmbed embedId='d0O6Yr3Sc54' />

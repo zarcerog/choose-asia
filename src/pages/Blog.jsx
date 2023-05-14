@@ -72,7 +72,7 @@ const Blog = () => {
     }
 
     return (
-      <div name='blog' className='w-full h-screen pt-16 px-5 flex flex-col gap-6'>
+      <div name='blog' className='w-full pt-16 px-5 flex flex-col gap-6'>
         <h1 className='text-[#ff9900] text-4xl'>Blog</h1>
         <div className='grid gap-4 xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 place-items-center'>
             {data.posts.map((post) => {

@@ -88,7 +88,7 @@ const Post = () => {
     }
   
     return (
-      <div name="blog" className="w-full h-screen pt-14 flex flex-col gap-6">
+      <div name="blog" className="w-full pt-14 flex flex-col gap-6">
         <img className='w-screen h-72 object-cover' src={post.coverPhoto.url} alt={post.postTitle}/>
         <div className='mx-14 md:mx-32 lg:mx-56 flex flex-col gap-6 pb-16'>
           <h1 className="text-[#ff9900] text-4xl">{post.postTitle}</h1>
@@ -109,8 +109,3 @@ const Post = () => {
   };
   
   export default Post;
-
-  
-  /*
-  
-  */
