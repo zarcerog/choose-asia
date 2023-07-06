@@ -14,7 +14,7 @@ const NavbarCatalan = ({nav, setNav}) => {
   const isSpanish = false;
 
   return (
-    <div className='fixed w-full h-[56px] flex justify-between items-center px-4 bg-[white] text-black font-lato font-thin text-lg'>
+    <div className='sticky w-full h-[56px] flex justify-between items-center px-4 bg-[white] text-black font-lato font-thin text-lg'>
       <div>
         <Link to='/' className='flex items-center gap-4'>
           <img src={Logo} alt={t('slogan')} className='w-16' />

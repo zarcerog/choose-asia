@@ -32,22 +32,22 @@ function App() {
         <meta name="description" content={t('slogan')} />
       </Helmet>
       <Navbar nav={nav} setNav={setNav} />
-        <Routes>
-          <Route path="/" element={<PaginaPrincipal />} />
-          <Route path="/qui-som" element={<QuiSom />} />
-          <Route path="/la-idea" element={<LaIdea nav={nav}/>} />
-          <Route path="/que-fem" element={<QueFem />} />
-          <Route path="/tours" element={<Tours />} />
-          <Route path="/allotjament" element={<Allotjament />} />
-          <Route path="/galeria" element={<Galeria nav={nav} />} />
-          <Route path="/que-cal-saber" element={<QueCalSaber nav={nav} />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:slug" element={<Post />} />
-          <Route path="/contacte" element={<Contact />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-of-use" element={<TermsOfUse />} />
-          <Route Component={NotFound} path="*" />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<PaginaPrincipal />} />
+        <Route path="/qui-som" element={<QuiSom />} />
+        <Route path="/la-idea" element={<LaIdea nav={nav}/>} />
+        <Route path="/que-fem" element={<QueFem />} />
+        <Route path="/tours" element={<Tours />} />
+        <Route path="/allotjament" element={<Allotjament />} />
+        <Route path="/galeria" element={<Galeria nav={nav} />} />
+        <Route path="/que-cal-saber" element={<QueCalSaber nav={nav} />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<Post />} />
+        <Route path="/contacte" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-use" element={<TermsOfUse />} />
+        <Route Component={NotFound} path="*" />
+      </Routes>
       <Footer />
     </div>
   );

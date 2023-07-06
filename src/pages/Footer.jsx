@@ -6,7 +6,7 @@ const Footer = () => {
     const { t } = useTranslation();
 
     return (
-        <footer className="flex flex-col gap-6 w-screen justify-center items-center h-36 sm:h-24 border-t border-gray-200 shadow-md">
+        <footer className="flex flex-col gap-6 w-screen justify-center items-center h-36 sm:h-24 border-t border-gray-200 shadow-md sticky">
             <div className="flex flex-col sm:flex-row justify-center gap-6 mt-4">
                 <a href="./privacy-policy" rel="noreferrer">
                     {t("privacyPolicy.privacyPolicy")}
